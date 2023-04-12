@@ -1,0 +1,40 @@
+.display{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    gap: 20px;
+    color: white;
+    
+}
+
+.innerDisplay{
+    height: 250px;
+  width: 250px;
+  display: flex;
+    box-shadow: 0 0 15px red;
+    border-radius: 10px;
+    position: relative;
+}
+
+.innerDisplay img {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.p1 {
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+  color: rgb(104, 23, 23);
+  font-size: 15px;
+}
+
+.p2 {
+  position: absolute;
+  top: 4rem;
+  left: 2rem;
+  font-size: 15px;
+}
